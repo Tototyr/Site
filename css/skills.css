@@ -1,0 +1,77 @@
+
+
+
+.my__photo{
+    width: 100%;
+    height: 100%;
+}
+
+.skills__info{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.skills-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    object-fit: cover;
+    margin: 40px 100px 100px 100px
+}
+
+.skills__title{
+    margin-bottom: 50px;
+}
+
+.my__photo{
+    width: 100%;
+    h100%
+}
+
+.skills{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.skills__text {
+    font-family: RobotoLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #727272;
+    padding-bottom: 7px;
+}
+
+.progress__image {
+    width: 100%;
+    height: 100%;
+}
+
+.skills-progress{
+    padding-bottom: 30px;
+
+}
+
+
+@media (max-width: 768px){
+    .my__photo{
+        display: none;
+    }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    .skills__info{
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .skills-photo{
+        margin: 0px;
+    }
+}

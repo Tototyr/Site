@@ -1,0 +1,23 @@
+
+
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.title {
+    font-family: RobotoMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+.about-me__text {
+    text-align: center;
+    width: 500px;
+}
