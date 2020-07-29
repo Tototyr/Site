@@ -13,6 +13,7 @@
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
 
@@ -20,6 +21,7 @@
 .projects__item {
     position: relative;
 }
+
 
 .project__descr {
     background: rgba(52,84,122,.5);

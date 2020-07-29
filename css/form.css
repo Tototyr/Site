@@ -33,45 +33,24 @@
     border: none;
     margin-bottom: 36px;
     margin-left: 30px;
+    padding-left: 10px;
+
 }
 
-.form__input:focus ~ .form__lable{
-    display: none;
-    outline: none;
-}
-
-
-.form__lable{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 3%;
-    padding-left: 7%;
-    z-index: 1;
+.input__text{
     color: #5F5D5D;
     font-family: RobotoMedium;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
-    display: block;
 }
 
-.email{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 15%;
-    padding-top: 5%;
+.form__input:focus ~ {
+    display: none;
+    outline: none;
 }
 
-.big__lable{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 3%;
-    padding-left: 10%;
-}
 
 .form__text{
     margin-bottom: 65px;
@@ -79,7 +58,7 @@
 }
 
 .big{
-    width: 540px;
+    width: 555px;
     height: 175px;
 }
 

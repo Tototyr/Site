@@ -13,3 +13,24 @@
     width: 255px;
     height: 120px;
 }
+
+
+
+
+@media (max-width: 1030px){
+    .clients__image {
+        width: 200px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 790px){
+    .clients__image {
+        width: 170px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
